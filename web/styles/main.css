@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  line-height: 18px;
+  background: rgb(41,45,62);
+}
+
+.vertical-spacer {
+  height: 40%;
+}
+
+.user-name-label {
+  color: white;
+  font-family: 'consolas', Courier New, monospace;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+input.user-name {
+  color: rgb(242,155,69);
+  background: transparent;
+
+  font-family: 'consolas', Courier New, monospace;
+  font-size: 14px;
+
+  border-color: white;
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 0.1em;
+
+  padding: 5px;
+  margin: 5px;
+}
+
+input.user-name:focus {
+  outline: none;
+  border-color: rgb(163, 163, 241);
+}
+
+input.user-name::placeholder {
+  font-weight: lighter;
+  color: gray;
+}
+
+.first-user-block {
+  text-align: center;
+}
+
+.second-user-block {
+  text-align: center;
+}
+
+.users-label-block {
+  font-family: 'consolas', Courier New, monospace;
+  font-size: 16px;
+  color: rgb(242,155,69);
+  text-align: center;
+  width: 33.33%;
+
+}
+
+/*
+      6 column system
+      3 sizes: sm md lg
+  */
+
+.sm-l {
+  float: left; }
+
+.sm-r {
+  float: right; }
+
+.sm-n {
+  float: none; }
+
+.sm-1 {
+  width: 16.66%; }
+
+.sm-2 {
+  width: 33.33%; }
+
+.sm-3 {
+  width: 50.00%; }
+
+.sm-4 {
+  width: 66.66%; }
+
+.sm-5 {
+  width: 83.33%; }
+
+.sm-6 {
+  width: 100.0%; }
+
+.multi-column {
+  -webkit-column-count: 1;
+  -moz-column-count: 1;
+  column-count: 1; }
