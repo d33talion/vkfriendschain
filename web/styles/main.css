@@ -1,32 +1,28 @@
 body {
   margin: 0;
-  line-height: 18px;
-  background: rgb(41,45,62);
+  padding: 0;
+  background: #343D46;
+}
+
+.content {
+  height: 100%;
+  width: 100%;
 }
 
 .vertical-spacer {
-  height: 40%;
-}
-
-.user-name-label {
-  color: white;
-  font-family: 'consolas', Courier New, monospace;
-  font-weight: bold;
-  font-size: 14px;
+  /* height: 40%; */
+  background: #FAC863;
 }
 
 input.user-name {
-  color: rgb(242,155,69);
+  color: #FAC863;
   background: transparent;
-
   font-family: 'consolas', Courier New, monospace;
   font-size: 14px;
-
   border-color: white;
   border-style: solid;
   border-radius: 5px;
   border-width: 0.1em;
-
   padding: 5px;
   margin: 5px;
 }
@@ -38,7 +34,7 @@ input.user-name:focus {
 
 input.user-name::placeholder {
   font-weight: lighter;
-  color: gray;
+  color: #65737E;
 }
 
 .first-user-block {
@@ -52,16 +48,26 @@ input.user-name::placeholder {
 .users-label-block {
   font-family: 'consolas', Courier New, monospace;
   font-size: 16px;
-  color: rgb(242,155,69);
-  text-align: center;
-  width: 33.33%;
-
+  color: #FAC863;
+  text-align: left;
 }
 
-/*
-      6 column system
-      3 sizes: sm md lg
-  */
+.search-button-block {
+  text-align: right;
+}
+
+input.search-btn {
+  color: #FAC863;
+  background: transparent;
+  font-family: 'consolas', Courier New, monospace;
+  font-size: 14px;
+  border-color: white;
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 0.1em;
+  padding: 5px;
+  margin: 5px;
+}
 
 .sm-l {
   float: left; }
@@ -76,7 +82,7 @@ input.user-name::placeholder {
   width: 16.66%; }
 
 .sm-2 {
-  width: 33.33%; }
+padding-left: 33.33%; }
 
 .sm-3 {
   width: 50.00%; }
@@ -89,6 +95,16 @@ input.user-name::placeholder {
 
 .sm-6 {
   width: 100.0%; }
+
+
+.sm-7 {
+  width: 33.33%; }
+
+.sc-top {
+  margin: auto;
+  display: inline;
+}
+
 
 .multi-column {
   -webkit-column-count: 1;
