@@ -1,4 +1,5 @@
 import React from 'react'
+import TargetUsersComponent from './components/TargetUsersComponent'
 
 class App extends React.Component {
     constructor (props) {
@@ -6,7 +7,7 @@ class App extends React.Component {
     }
 
     render() {
-
+        return <TargetUsersComponent />
     }
 }
 
