@@ -2,8 +2,12 @@ import React from 'react'
 
 function UserIdComponent(props) {
     return (
-        <div class="user-block">
-            <input type="text" placeholder={props.placeholder} class="user-id" />
+        <div className="user-block">
+            <input
+                type="text"
+                placeholder={props.placeholder}
+                className="user-id"
+                onBlur={() => props.lostFocusHandler()} />
         </div>
     );
 }
