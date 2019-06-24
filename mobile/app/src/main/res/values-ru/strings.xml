@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VkFriends</string>
+    <string name="first_user_id">Идентификатор первого пользователя</string>
+    <string name="user_id_missed">Необходимо указать идентификатор пользователя</string>
+    <string name="second_user_id">Идентификатор второго пользователя</string>
+    <string name="user_id_invalid">Некорректный идентификатор</string>
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">VkFriends</string>
+    <string name="second_user_id">Second User Id</string>
+    <string name="first_user_id">First User Id</string>
+    <string name="user_id_missed">User Id should be provided</string>
+    <string name="user_id_invalid">Wrong User Id</string>
+</resources>
